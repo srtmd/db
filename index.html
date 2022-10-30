@@ -8,7 +8,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Manoel Gomes - Discord Music Bot</title>
+    <title>Blue Pen Bot - Discord Music Bot</title>
     <link rel="stylesheet" href="assets/css/bulma.min.css" />
     <link rel="stylesheet" href="assets/css/style.css" />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
@@ -23,6 +23,9 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+<script src=
+"https://unpkg.com/ag-grid-community/dist/ag-grid-community.min.nostyle.js">
+</script>
 
     <script src="assets/js/jquery-3.6.0.js"></script>
   </head>
@@ -41,7 +44,7 @@
     >
       <div class="navbar-brand mt-2 mb-2">
         <a class="navbar-item" href="#">
-          <strong>Manoel Gomes</strong>
+          <strong>Blue Pen Bot</strong>
 
           <!-- or if you want to use image -->
           <!-- <img
@@ -78,8 +81,8 @@
             Status
           </a>
 
-          <a href="#" class="navbar-item is-tab">
-            Docs
+          <a href="#comandos" class="navbar-item is-tab">
+            Comandos
           </a>
         </div>
 
@@ -106,7 +109,7 @@
           <div class="columns">
             <div class="column mr-6 mt-12" data-aos="fade-up">
               <p class="title has-text-white has-text-weight-bold">
-                Manoel Gomes, seu cantor no discord!
+                Blue Pen Bot, seu cantor no discord!
               </p>
               <p class="subtitle has-text-grey-light is-size-6 mt-3">
                 Alo meus amigos! Vou cantar as mais belas músicas que vocês me pedirem.
@@ -117,7 +120,7 @@
                   <strong><i class="fa-brands fa-discord"></i> Adicionar</strong>
                 </a>
 
-                <a href="#" class="button is-primary is-outlined">
+                <a href="#donate" class="button is-primary is-outlined">
                   <strong><i class="fa-solid fa-hand-holding-dollar"></i> Doar</strong>
                 </a>
               </div>
@@ -125,7 +128,7 @@
             <div class="column mt-6" data-aos="fade-left">
               <img
                 class="image has-image-centered vert-move mt-4"
-                src="assets/img/relaunch_day.svg"
+                src="assets/img/roundblue.png"
                 alt="hero image"
                 style="width: 20rem;"
               />
@@ -174,15 +177,16 @@
 
         <div class="columns mt-6">
           <div class="column mr-6">
-            <h4 class="title">Cantor<span class="blurple"> Musical</span></h4>
+            <h4 class="title">Bot<span class="blurple"> Musical</span></h4>
             <p class="subtitle mt-3">
-              Manoel Gomes (Blue Pen) estará sempre disposto a cantar sua música preferida.
+              Blue Pen Bot estará sempre disposto a tocar sua música preferida
+              nos canais de voz do seu servidor!
             </p>
           </div>
           <div class="column" data-aos="fade-left">
             <img
               class="image has-image-centered"
-              src="assets/img/features_overview.svg"
+              src="assets/img/music.svg"
               alt="feature1 img"
               style="width: 20rem;"
             />
@@ -207,17 +211,18 @@
           <div class="column" data-aos="fade-right">
             <img
               class="image has-image-centered"
-              src="assets/img/product_literation.svg"
+              src="assets/img/feeling_happy.svg"
               alt="feature1 img"
-              style="width: 20rem;"
+              style="width: 50rem;"
             />
           </div>
           <div class="column">
             <h4 class="title">
-              Agrada seu<span class="has-text-primary"> público</span>
+              Toque músicas de<span class="has-text-primary"> qualquer lugar</span>!
             </h4>
             <p class="subtitle mt-3">
-              Com Manoel Gomes cantando, seus membros não ficarão entediados nas calls!
+              Com Blue Pen Bot, você e os membros do seu servidor não ficarão retidos!
+              Outros bots não aceitam alguns provedores de música e acabam não tocando a música desejada.
             </p>
           </div>
         </div>
@@ -225,6 +230,26 @@
       <!-- single feature end (Right) -->
     </section>
     <!-- Features Section End -->
+    
+    <!-- Invite Section Start -->
+    <section class="section mt-6">
+      <div class="columns">
+        <div class="column has-text-left">
+          <p class="title has-text-weight-bold">
+            Pronto para adicionar <span class="blurple">Blue Pen Bot</span>?
+          </p>
+          <p class="subtitle mt-3 has-text-gray">
+            Disponível apenas para pequenos servidores selecionados.
+          </p>
+          <a href="#" class="button is-blurple is-medium"
+            ><strong><i class="fa-solid fa-book"></i> Como adicionar Blue Pen Bot</strong></a
+          >
+        </div>
+
+        <div class="column"></div>
+      </div>
+    </section>
+    <!-- Invite Section End -->
 
     <!-- Stats Section Start -->
     <section id="stats" class="section mt-6">
@@ -235,42 +260,109 @@
 
       <div class="columns mt-6">
         <div class="column has-text-centered">
-          <p class="title has-text-weight-bold lined">012</p>
+          <p class="title has-text-weight-bold lined">005</p>
           <span class="subtitle has-text-weight-bold blurple"><i class="fa-solid fa-server"></i> Servers</span>
         </div>
 
         <div class="column has-text-centered">
           <p class="title has-text-weight-bold lined">018</p>
-          <span class="subtitle has-text-weight-bold blurple"><i class="fa-solid fa-terminal"></i> Commands</span>
+          <span class="subtitle has-text-weight-bold blurple"><i class="fa-solid fa-terminal"></i> Comandos</span>
         </div>
 
         <div class="column has-text-centered">
-          <p class="title has-text-weight-bold lined">512</p>
-          <span class="subtitle has-text-weight-bold blurple"><i class="fa-solid fa-users"></i> Users</span>
+          <p class="title has-text-weight-bold lined">1024</p>
+          <span class="subtitle has-text-weight-bold blurple"><i class="fa-solid fa-users"></i> Usuários</span>
         </div>
       </div>
     </section>
     <!-- Stats Section End -->
 
-    <!-- Invite Section Start -->
-    <section class="section mt-6">
-      <div class="columns">
-        <div class="column has-text-left">
-          <p class="title has-text-weight-bold">
-            Pronto para adicionar <span class="blurple">Manoel Gomes</span>?
-          </p>
-          <p class="subtitle mt-3 has-text-gray">
-            ME ADIOCIONE OU VOU TE MOSTRAR A CANETA AZUL.
-          </p>
-          <a href="#" class="button is-blurple is-medium"
-            ><strong><i class="fa-solid fa-book"></i> Comece já</strong></a
-          >
-        </div>
-
-        <div class="column"></div>
+    <!-- Comandos -->
+    <section id="comandos" class="section mt-6">
+      <div class="has-text-centered">
+        <h1 class="title lined">Comandos</h1>
+        <div class="line line-center blurple"></div>
       </div>
+      <br>
+      <div class="container">
+        <table class="table is-bordered is-striped is-narrow is-centered is-fullwidth">
+      <thead>
+        <tr>
+          <th>Prefixo (;)</th>
+          <th>Uso do comando</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>play (p)</td>
+          <td>use junto com um nome ou link de música</td>
+        </tr>
+        <tr>
+          <td>back (rewind)</td>
+          <td>retorna a música anterior</td>
+        </tr>
+        <tr>
+          <td>loop (lp)</td>
+          <td>deixa a música atual em loop</td>
+        </tr>
+        <tr>
+          <td>nowplaying (np)</td>
+          <td>ver a música atual</td>
+        </tr>
+        <tr>
+          <td>pause</td>
+          <td>pausar música atual</td>
+        </tr>
+        <tr>
+          <td>resume</td>
+          <td>retomar música atual</td>
+        </tr>
+        <tr>
+          <td>time (t)</td>
+          <td>ver tempo atual da música</td>
+        </tr>
+        <tr>
+          <td>queue (q)</td>
+          <td>ver a lista de reprodução</td>
+        </tr>
+        <tr>
+          <td>remove (r)</td>
+          <td>remover uma música da lista</td>
+        </tr>
+        <tr>
+          <td>save</td>
+          <td>salvar a música atual</td>
+        </tr>
+        <tr>
+          <td>search (find)</td>
+          <td>procurar o nome de uma música</td>
+        </tr>
+        <tr>
+          <td>skip (s)</td>
+          <td>pular música atual</td>
+        </tr>
+        <tr>
+          <td>volume (v)</td>
+          <td>mudar volume do bot entre 1 e 200</td>
+        </tr>
+      </tbody>
+    </table>
+      </div>
+
     </section>
-    <!-- Invite Section End -->
+    <!-- Comandos End -->
+
+    <!-- Donate -->
+    <section id="donate" class="section mt-6">
+      <div class="has-text-centered">
+        <h1 class="title lined">Doar</h1>
+        <div class="line line-center blurple"></div>
+      </div>
+
+
+    </section>
+
+    <!-- Donate End -->
 
     <!-- Footer Section Start -->
     <footer class="footer bg-base">
@@ -280,9 +372,10 @@
         </div>
 
         <p>
-          <span class="has-text-weight-bold">Manoel Gomes</span>
+          <span class="has-text-weight-bold">Blue Pen Bot</span>
           <br />
-          &copy; <span id="cp-year"></span> Copyright <a href="nxty.cc">nxty.cc</a>. All Rights
+          &copy; <span id="cp-year"></span> Copyright <a class="blurple has-text-weight-bold"
+            target="_blank" href="nxty.cc">nxty.cc</a>. All Rights
           Reserved.
         </p>
 
